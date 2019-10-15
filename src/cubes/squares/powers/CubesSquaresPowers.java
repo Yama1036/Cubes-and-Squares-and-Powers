@@ -1,7 +1,7 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Yama
+ * 15/10/2019
+ * To do the calculation of Cubes or Squares or Powers.
  */
 
 package cubes.squares.powers;
