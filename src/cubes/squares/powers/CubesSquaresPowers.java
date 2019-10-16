@@ -44,7 +44,8 @@ public class CubesSquaresPowers {
                     base = keyedInput.nextInt();
                     System.out.println(" Your base = "+ base +"");
                     ans = base * base;
-                    System.out.println("Answer: "+ ans +"");
+                    System.out.println("");
+                    System.out.println("          Answer: "+ ans +"");
                     System.out.println("----------------------------------------------");
                 }
             
@@ -53,9 +54,10 @@ public class CubesSquaresPowers {
                 {
                     System.out.println(" What is your BASE?? ");
                     base = keyedInput.nextInt();
-                    System.out.println(" Your base = "+ base +"");
+                    System.out.println("Your base = "+ base +"");
                     ans = base * base * base;
-                    System.out.println("Answer: "+ ans +"");
+                    System.out.println("");
+                    System.out.println("          Answer: "+ ans +"");
                     System.out.println("----------------------------------------------");
                 }
             
@@ -64,10 +66,10 @@ public class CubesSquaresPowers {
                 {
                     System.out.println(" What is your BASE?? ");
                     base = keyedInput.nextInt();
-                    System.out.println(" Your base = "+ base +"");
+                    System.out.println("Your base = "+ base +"");
                     System.out.println("Prease enter the powers");
                     power = keyedInput.nextInt();
-                    
+                    System.out.println("Your power = "+ power +"");
                     double num1 = 0;
                     double num2 = 1; 
                     while (num1 < power) 
@@ -75,7 +77,8 @@ public class CubesSquaresPowers {
                             num2 = num2 * base;
                             num1 = num1 + 1;
                         }
-                    System.out.println("Answer: "+ num2 +"");    
+                    System.out.println("");
+                    System.out.println("          Answer: "+ num2 +"");    
                     System.out.println("----------------------------------------------");
                 }
         }    
